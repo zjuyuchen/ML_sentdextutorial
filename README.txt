@@ -21,6 +21,15 @@ git push origin master                                   //after 1st
 git clone git@github.com:Zjuyuchen/xxx                   //clone from remote
 
 git checkout -b dev                                      //new branch dev
+git checkout master                                      //return to master branch
+git log --graph --pretty=oneline --abbrev-commit         //show the log of branch
+
+git stash                                                //save the branch right now
+git stash list                                           //show the saved list
+git stash apply ** and git stash drop **
+or
+git stash pop
+
 
 
 
